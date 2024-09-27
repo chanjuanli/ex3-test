@@ -1,0 +1,111 @@
+/* style.css */
+
+html, body {
+  height: 100%;  
+  overflow-y: auto;
+  background-color:#A7FC00!important;
+}
+
+body {
+ 
+  background-image: url("elyx-elyxyak.gif"),url("design-syndrome-doodle-square-marker-13.png"),url("smile.png");
+  background-size:  300px 300px, 300px 300px, 250px,250px;
+  background-position: right 80px top 100px, right 55px top 400px,right 70px top 430px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+
+  
+  font-family: Arial, sans-serif;
+  ;
+
+}
+
+.page-spacing {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.form-section {
+  max-width: 400px;  
+  margin: 0px;
+  padding: 20px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav {
+ 
+  padding: 10px;
+}
+
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #333;
+  padding-top: 60px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+.container {
+  margin: 40px auto;  
+  padding: 20px;  
+  border: 10px solid transparent;
+  max-width: 1292;  
+            
+}
+
+footer {
+  display: flex; 
+  justify-content: center;    
+  align-items: center; 
+  padding: 20px;
+  border: 2px solid #333;
+  background-color:#A7FC00;
+  color:  #333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50px; 
+  
+}
+
+@media screen and (max-width: 400px){
+  body {
+    background-size: 80px 80px;
+  }
+
+  nav {
+    text-align: center;           
+  }
+
+  footer {
+    height: 30px;               
+  }
+
+  .container{
+    padding: 16px;
+    margin: 12px auto;
+  }
+
+
+}
+  
+
