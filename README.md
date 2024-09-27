@@ -1,2 +1,2 @@
 # ex3-test
-Try git
+Try git_lichanjuan
