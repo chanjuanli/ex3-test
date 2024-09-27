@@ -1,2 +1,2 @@
 # ex3-test
-Try git 2024
+Try git_2024
